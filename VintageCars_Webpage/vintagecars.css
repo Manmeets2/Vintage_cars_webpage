@@ -1,0 +1,193 @@
+*{
+    PADDING:0;
+    MARGIN:0;
+
+}
+.main{
+    width:100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(vintage\ car3.jpeg);
+    background-position:center;
+    background-size: cover;
+    height:100vh;
+    font-family: sans-serif;
+
+}
+.navbar{
+    width:95%;
+    height:auto;
+    margin-left:30px;
+}
+.logo{
+    color:white;
+    font-size:25px;
+    font-family: "poppins" sans-serif;
+    float:left;
+    padding-top:.6%;
+    cursor:pointer;
+    display:flex;
+    
+    
+
+}
+.menu{
+
+    width:60px;
+    float:left;
+    height:70px;
+}
+ul{
+    float:left;
+    display:flex;
+    padding-top:30px;
+    justify-content:center;
+    align-items:center;
+    margin-left:14%;
+
+
+}
+ul li{
+    list-style:none;
+    margin-left: 60px;
+    font-size:1rem;
+  
+
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    opacity:0.8;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    transition:.3s ease-out;
+    
+
+}
+ul li a:hover{
+ opacity:1;
+ color:	#FAF9F6;
+ box-shadow: 0 0 30px black;
+ text-decoration:underline;
+ transition:0.5s ease-out;
+
+
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.icons{
+    display:inline;
+   
+
+}
+.search-box{
+    float:right;
+    width:300px;
+    background:white;
+    height:30px;
+    padding:8px;
+    border-radius:30px ;
+    margin-top:20px;
+    margin-right:2%;
+}
+.serach-btn{
+    text-decoration: none;
+    background: white;
+    color:black;
+    display:flex;
+    float:right;
+    justify-content:center;
+    align-items:center;
+    width:50px;
+    height:30px;
+    
+}
+.search-txt{
+    border:none;
+    background:none;
+    outline:none;
+    float:left;
+    color:black;
+    font-size:16px;
+    line-height:30px;
+    
+
+
+}
+.title{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translate(-50%,50%);
+
+
+}
+.title h1{
+    cursor:pointer;
+    font-family:"poppins" sans-serif;
+    color:white;
+    font-size:80px;
+    animation:coloranimate 2s linear 0s 3 normal;
+}
+.title h4{
+    cursor:pointer;
+    font-family:cursive;
+    color:white;
+    font-size:15px;
+}
+.title h5{
+    cursor:pointer;
+    font-family:cursive;
+    color:white;
+    font-size:15px;
+}
+.button{
+    position:absolute;
+    top: 85%;
+    left:50%;
+    transform:translate(-50%,50%);
+}
+.btn{
+    border:2px solid white;
+    color:white;
+    padding:5px 20px;
+    font-size:20px;
+    text-decoration:none;
+    transition :.3s ease; 
+
+}
+.btn:hover{
+    background-color:white;
+    color:black;
+
+}
+.image{
+    height:80px;
+    width:80px;
+    display: flex;
+    margin-right:20px;
+    
+}
+@keyframes coloranimate {
+     from{
+        color:black;
+      
+     }
+     to{
+        color:white;
+     
+     }
+}
+
+.social{
+    position:absolute;
+    top:90%;
+    left:85%;
+    transform:translate(-50%,50%);
+    color:white;
+    display:inline;
+letter-spacing: 10px;
+    justify-content: space-between;
+    font-size:20px;
+    cursor:pointer;
+}
+
